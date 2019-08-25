@@ -31,13 +31,13 @@ brew 命令目录 /usr/local/bin   注:homebrew在安装完成后自动在/usr/l
 软件包安装的目录是在：/usr/local/Cellar
 
 ```
-brew -v                                # 版本确认
-brew list                               # 列出当前安装的软件
-brew install nodejs             # 安装 node
+brew -v                     # 版本确认
+brew list                   # 列出当前安装的软件
+brew install nodejs         # 安装 node
 brew upgrade nodejs         # 更新 node
-brew remove nodejs           # 删除 node
-brew search nodejs             # 查询与 nodejs 相关的可用软件
-brew info nodejs                 # 查询 nodejs 的安装信息
+brew remove nodejs          # 删除 node
+brew search nodejs          # 查询与 nodejs 相关的可用软件
+brew info nodejs            # 查询 nodejs 的安装信息
 ```
 
 ## brew services
